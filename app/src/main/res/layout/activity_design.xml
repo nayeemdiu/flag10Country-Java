@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".design">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewId"
+                android:layout_width="60dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/flagslogo">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:orientation="vertical"
+                >
+
+
+                <TextView
+                    android:layout_marginTop="13dp"
+                    android:id="@+id/allBoadNameId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nayeem Vai"
+                    android:textSize="18sp"
+                    android:textColor="#434547"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="4dp"
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/allBoadNamedecriptinId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bangladesh Contact me:+88 01733364274"
+                    android:textColor="#6B676C"
+                    ></TextView>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="time"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:padding="15dp"-->
+        <!--           android:layout_alignParentRight="true"-->
+        <!--            ></TextView>-->
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

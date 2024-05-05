@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/flagslogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Flags10country"
+        tools:targetApi="31">
+        <activity
+            android:name=".india"
+            android:exported="false" />
+        <activity
+            android:name=".splash_screen"
+            android:exported="false" />
+        <activity
+            android:name=".usa"
+            android:exported="false" />
+        <activity
+            android:name=".rgentina"
+            android:exported="false" />
+        <activity
+            android:name=".pakistan"
+            android:exported="false" />
+        <activity
+            android:name=".morokko"
+            android:exported="false" />
+        <activity
+            android:name=".denmark"
+            android:exported="false" />
+        <activity
+            android:name=".canada"
+            android:exported="false" />
+        <activity
+            android:name=".brazil"
+            android:exported="false" />
+        <activity
+            android:name=".austrelia"
+            android:exported="false" />
+        <activity
+            android:name=".bangladesh"
+            android:exported="false" />
+        <activity
+            android:name=".design"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="12"
+    android:orientation="vertical"
+    android:background="#F1EFF4"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bg_shape">
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flags10country"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:padding="5dp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_weight="12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ListView
+            android:background="#F4F1F8"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listviewId"
+            android:divider="#CFCECF"
+            android:listSelector="#dddddd"
+            android:dividerHeight="1dp">
+
+
+
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>
